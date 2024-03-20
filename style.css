@@ -293,4 +293,6 @@ NEW STYLING
     margin-left: 10px;
     gap: 8px;
   }
+  #mainbackground {
+    padding-top:20px;
 }
