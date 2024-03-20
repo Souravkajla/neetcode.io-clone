@@ -250,10 +250,47 @@ NEW STYLING
   margin-left: 40px;
 }
 
+.checkfont2 div {
+  display: flex;
+  gap: 20px;
+}
+
 #billed {
   color: #f1f1f1;
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 450px) {
+  .headertext {
+    display: none;
+  }
+  #sun {
+    display: none;
+  }
+  #bigtext {
+    font-size: 40px;
+    text-align: center;
+  }
+  #boxcontainer {
+    flex-direction: column;
+  }
+  #box {
+    width: 80vw;
+    height: 41vh;
+  }
+  #box2 {
+    width: 80vw;
+    height: 36vh;
+  }
+  .checkfont {
+    margin-left: 10px;
+    gap: 8px;
+  }
+  .checkfont2 {
+    margin-left: 10px;
+    gap: 8px;
+  }
 }
